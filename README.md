@@ -24,9 +24,9 @@ This is app is built with [Expo](https://docs.expo.io/). It is heavily inspired 
 1. Clone the repo, install dependencies.
 
     ```bash
-    ~ git clone https://github.com/jackburrus/EnlightenMe.git
+    ~ git clone https://github.com/jackburrus/MeditationApp.git
 
-    ~ cd enlighten-me
+    ~ cd MeditationApp
 
     ~ yarn
     ```
