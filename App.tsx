@@ -20,6 +20,10 @@ import {
   Martel_900Black,
   useFonts,
 } from "@expo-google-fonts/martel";
+import {
+  Spectral_600SemiBold_Italic,
+  Spectral_300Light,
+} from "@expo-google-fonts/spectral";
 import { ThemeProvider } from "@shopify/restyle";
 import Amplify from "aws-amplify";
 import { AmplifyTheme, withAuthenticator } from "aws-amplify-react-native";
@@ -72,6 +76,8 @@ function App() {
     Martel_700Bold,
     Martel_800ExtraBold,
     Lato_400Regular,
+    Spectral_300Light,
+    Spectral_600SemiBold_Italic,
   });
 
   useEffect(() => {

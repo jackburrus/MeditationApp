@@ -17,7 +17,6 @@ const Quotes = () => {
   const [quoteNumber, setQuoteNumber] = useState(null);
   const [fontsLoaded] = useFonts({
     Spectral_600SemiBold,
-    Spectral_600SemiBold_Italic,
     Spectral_300Light,
   });
   useEffect(() => {

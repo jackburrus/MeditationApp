@@ -11,6 +11,7 @@
   "dependencies": {
     "@expo-google-fonts/lato": "^0.1.0",
     "@expo-google-fonts/martel": "^0.1.0",
+    "@expo-google-fonts/spectral": "^0.1.0",
     "@react-native-community/masked-view": "0.1.10",
     "@react-native-community/netinfo": "5.9.7",
     "@react-navigation/bottom-tabs": "^5.11.2",
