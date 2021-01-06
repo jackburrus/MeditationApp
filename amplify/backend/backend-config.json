@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "uniqueUserPoolId"
+              "userPoolId": "authmayasjourney5127736d"
             }
           },
           "additionalAuthenticationProviders": []
