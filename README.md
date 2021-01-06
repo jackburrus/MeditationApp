@@ -68,10 +68,10 @@ This is app is built with [Expo](https://docs.expo.io/). It is heavily inspired 
     ```graphql
     mutation createMeditation {
       createMeditation(input: {
-    title: "Monkey Mind", 
-    description: "A 20 minute meditation that aims to tame all these monkeys looking to steal your attention.", 
-    imageSource: "https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2870&q=80", 
-    tag: "Philosophy"
+        title: "Monkey Mind", 
+        description: "A 20 minute meditation that aims to tame all these monkeys looking to steal your attention.", 
+        imageSource: "https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2870&q=80", 
+        tag: "Philosophy"
     }) {
         id
         imageSource
