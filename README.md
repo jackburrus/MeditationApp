@@ -1,4 +1,4 @@
-# Enlighten Me: Meditation App
+# Meditation App
 
 ![./assets/ReadMeBanner.png](./assets/ReadMeBanner.png)
 

@@ -68,23 +68,10 @@ function App() {
   const [darkTheme, setDarkTheme] = useState(true);
 
   const [fontsLoaded] = useFonts({
-    Martel_200ExtraLight,
-    Martel_300Light,
     Martel_400Regular,
-    Martel_600SemiBold,
     Martel_700Bold,
     Martel_800ExtraBold,
-    Martel_900Black,
-    Lato_100Thin,
-    Lato_100Thin_Italic,
-    Lato_300Light,
-    Lato_300Light_Italic,
     Lato_400Regular,
-    Lato_400Regular_Italic,
-    Lato_700Bold,
-    Lato_700Bold_Italic,
-    Lato_900Black,
-    Lato_900Black_Italic,
   });
 
   useEffect(() => {
