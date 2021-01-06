@@ -5,7 +5,6 @@ import {
   ImageBackgroundProps,
   TouchableOpacity,
 } from "react-native";
-import CachedImage from "react-native-expo-cached-image";
 
 import { device } from "../../constants";
 import { Box, Text } from "../../theme";
