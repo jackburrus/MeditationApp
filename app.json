@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "mayas-journey",
+    "owner": "jackburrus",
+    "slug": "mayas-journey",
+    "backgroundColor": "#17202B",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/App_store_1024_1x.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#17202B"
+      
+      
+      
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A2B3C"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "privacy": "unlisted"
+  }
+}

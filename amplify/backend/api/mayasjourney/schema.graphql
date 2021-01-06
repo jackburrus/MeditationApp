@@ -1,0 +1,18 @@
+type Meditation @model  @key(name: "meditationByDateCreated", fields: ["createdAt"], queryField: "meditationByDate")
+  {
+  id: ID!
+  title: String!
+  description: String!
+  imageSource: String!
+  tag: String
+  featured: Boolean
+  createdAt: AWSDateTime
+  favorite: Favorite @connection(name: "Favorites")
+}
+
+type Favorite @model  {
+  id: ID!
+  favoriteOwnerID: String!
+  favoriteOwnerUsername: String!
+  meditation: Meditation @connection(name: "Favorites")
+}
